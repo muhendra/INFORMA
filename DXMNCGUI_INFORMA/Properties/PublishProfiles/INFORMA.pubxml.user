@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\INFORMA</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/AddPhoneNumber.aspx">
+      <publishTime>03/06/2020 10:56:25</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>03/06/2020 10:56:22</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>03/06/2020 10:56:22</publishTime>
+    </File>
+    <File Include="Account/Confirm.aspx">
+      <publishTime>06/08/2020 14:08:47</publishTime>
+    </File>
+    <File Include="Account/ForgotPassword.aspx">
+      <publishTime>03/06/2020 10:56:27</publishTime>
+    </File>
+    <File Include="Account/Lockout.aspx">
+      <publishTime>03/06/2020 10:56:24</publishTime>
+    </File>
+    <File Include="Account/Manage.aspx">
+      <publishTime>03/06/2020 10:56:25</publishTime>
+    </File>
+    <File Include="Account/ManageLogins.aspx">
+      <publishTime>03/06/2020 10:56:26</publishTime>
+    </File>
+    <File Include="Account/OpenAuthProviders.ascx">
+      <publishTime>03/06/2020 10:56:26</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>03/06/2020 10:56:23</publishTime>
+    </File>
+    <File Include="Account/RegisterExternalLogin.aspx">
+      <publishTime>03/06/2020 10:56:27</publishTime>
+    </File>
+    <File Include="Account/RegisterSuccess.aspx">
+      <publishTime>03/06/2020 10:56:24</publishTime>
+    </File>
+    <File Include="Account/ResetPassword.aspx">
+      <publishTime>03/06/2020 10:56:28</publishTime>
+    </File>
+    <File Include="Account/ResetPasswordConfirmation.aspx">
+      <publishTime>06/08/2020 14:09:57</publishTime>
+    </File>
+    <File Include="Account/TwoFactorAuthenticationSignIn.aspx">
+      <publishTime>03/06/2020 10:56:28</publishTime>
+    </File>
+    <File Include="Account/VerifyPhoneNumber.aspx">
+      <publishTime>03/06/2020 10:56:26</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>03/06/2020 10:56:24</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:23:20</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.DataAccess.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:23:39</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Pdf.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.PivotGrid.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Sparkline.v17.2.Core.resources.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Utils.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:05</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxHtmlEditor.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:47</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxRichEdit.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:53</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxSpellChecker.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:54</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.ASPxTreeList.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:55</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.Resources.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:12</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:48</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Xpo.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:22</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraBars.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraCharts.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraEditors.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraGauges.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraLayout.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:26</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraPrinting.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:29</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraReports.v17.2.Web.resources.dll">
+      <publishTime>07/22/2019 16:24:29</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.XtraTreeList.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:37</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Charts.v17.2.Core.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.CodeParser.v17.2.dll">
+      <publishTime>07/22/2019 16:22:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v17.2.dll">
+      <publishTime>07/22/2019 16:23:20</publishTime>
+    </File>
+    <File Include="bin/DevExpress.DataAccess.v17.2.dll">
+      <publishTime>07/22/2019 16:23:39</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Images.v17.2.dll">
+      <publishTime>07/22/2019 16:23:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v17.2.Core.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v17.2.Core.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/DevExpress.PivotGrid.v17.2.Core.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v17.2.Core.dll">
+      <publishTime>07/22/2019 16:23:59</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v17.2.Core.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Sparkline.v17.2.Core.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.SpellChecker.v17.2.Core.dll">
+      <publishTime>07/22/2019 16:24:01</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v17.2.dll">
+      <publishTime>07/22/2019 16:24:05</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxHtmlEditor.v17.2.dll">
+      <publishTime>07/22/2019 16:22:47</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxRichEdit.v17.2.dll">
+      <publishTime>07/22/2019 16:22:53</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxSpellChecker.v17.2.dll">
+      <publishTime>07/22/2019 16:22:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v17.2.dll">
+      <publishTime>07/22/2019 16:22:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxTreeList.v17.2.dll">
+      <publishTime>07/22/2019 16:22:55</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.Resources.v17.2.dll">
+      <publishTime>07/22/2019 16:24:12</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v17.2.dll">
+      <publishTime>07/22/2019 16:22:48</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Xpo.v17.2.dll">
+      <publishTime>07/22/2019 16:24:22</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraBars.v17.2.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v17.2.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraEditors.v17.2.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGauges.v17.2.Core.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraLayout.v17.2.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPrinting.v17.2.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v17.2.dll">
+      <publishTime>07/22/2019 16:24:29</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v17.2.Web.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraTreeList.v17.2.dll">
+      <publishTime>07/22/2019 16:24:37</publishTime>
+    </File>
+    <File Include="bin/DXMNCGUI_INFORMA.dll">
+      <publishTime>11/12/2021 17:20:03</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>02/03/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>02/03/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:23:21</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.DataAccess.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:23:39</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Pdf.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.PivotGrid.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:59</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Sparkline.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:01</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Utils.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:06</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxHtmlEditor.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:47</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxRichEdit.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:53</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxSpellChecker.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:54</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.ASPxTreeList.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:55</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.Resources.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:12</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:48</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Xpo.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:22</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraBars.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraCharts.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraEditors.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraGauges.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraLayout.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraPrinting.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:29</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraReports.v17.2.Web.resources.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.XtraTreeList.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:37</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:23:21</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.DataAccess.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:23:39</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Pdf.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.PivotGrid.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:59</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Sparkline.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:01</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Utils.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:06</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxHtmlEditor.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:47</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxRichEdit.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:54</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxSpellChecker.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:54</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.ASPxTreeList.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:55</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.Resources.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:12</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:48</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Xpo.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:22</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraBars.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraCharts.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraEditors.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraGauges.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraLayout.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraPrinting.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:29</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraReports.v17.2.Web.resources.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.XtraTreeList.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>03/04/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>03/04/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>03/04/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 13:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 13:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 13:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2015 13:16:42</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/08/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 13:00:52</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:23:21</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.DataAccess.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:23:39</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Pdf.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:57</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.PivotGrid.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:23:59</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Sparkline.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:01</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Utils.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:06</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxHtmlEditor.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:47</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxRichEdit.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:54</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxSpellChecker.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:54</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.ASPxTreeList.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:55</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.Resources.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:13</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:22:49</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Xpo.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:22</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraBars.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraCharts.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:24</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraEditors.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraGauges.v17.2.Core.resources.dll">
+      <publishTime>07/22/2019 16:24:25</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraLayout.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraPrinting.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:28</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:29</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraReports.v17.2.Web.resources.dll">
+      <publishTime>07/22/2019 16:24:30</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.XtraTreeList.v17.2.resources.dll">
+      <publishTime>07/22/2019 16:24:37</publishTime>
+    </File>
+    <File Include="Content/Images/approve.png">
+      <publishTime>09/28/2021 11:44:44</publishTime>
+    </File>
+    <File Include="Content/Images/AquaHeader.jpg">
+      <publishTime>03/06/2020 10:56:29</publishTime>
+    </File>
+    <File Include="Content/Images/BlackGlassHeader.jpg">
+      <publishTime>03/06/2020 10:56:29</publishTime>
+    </File>
+    <File Include="Content/Images/BlueBackground.jpg">
+      <publishTime>06/08/2020 18:20:28</publishTime>
+    </File>
+    <File Include="Content/Images/favicon.ico">
+      <publishTime>05/08/2020 17:53:41</publishTime>
+    </File>
+    <File Include="Content/Images/GlassHeader.jpg">
+      <publishTime>03/06/2020 10:56:29</publishTime>
+    </File>
+    <File Include="Content/Images/HomeBackground.png">
+      <publishTime>06/09/2020 10:07:35</publishTime>
+    </File>
+    <File Include="Content/Images/HomeBackground2.png">
+      <publishTime>06/09/2020 10:07:36</publishTime>
+    </File>
+    <File Include="Content/Images/HomeBackground3.png">
+      <publishTime>06/09/2020 10:07:34</publishTime>
+    </File>
+    <File Include="Content/Images/HomeBackground4.png">
+      <publishTime>06/09/2020 10:07:34</publishTime>
+    </File>
+    <File Include="Content/Images/HomeIcon-16x16.png">
+      <publishTime>06/08/2020 14:20:08</publishTime>
+    </File>
+    <File Include="Content/Images/loginbackground.jpg">
+      <publishTime>03/06/2020 15:33:29</publishTime>
+    </File>
+    <File Include="Content/Images/logo.png">
+      <publishTime>06/08/2020 09:37:37</publishTime>
+    </File>
+    <File Include="Content/Images/mysign.png">
+      <publishTime>09/30/2021 14:20:06</publishTime>
+    </File>
+    <File Include="Content/Images/PlasticBlueHeader.jpg">
+      <publishTime>03/06/2020 10:56:29</publishTime>
+    </File>
+    <File Include="Content/Images/RedWineHeader.jpg">
+      <publishTime>03/06/2020 10:56:29</publishTime>
+    </File>
+    <File Include="Content/Images/reject.png">
+      <publishTime>10/29/2021 17:39:21</publishTime>
+    </File>
+    <File Include="Content/Images/SilverBackground.jpg">
+      <publishTime>06/08/2020 18:01:07</publishTime>
+    </File>
+    <File Include="Content/Images/ViewIcon-16x16.png">
+      <publishTime>06/07/2020 08:58:04</publishTime>
+    </File>
+    <File Include="Content/Images/WorkListIcon-16x16.png">
+      <publishTime>08/25/2020 15:38:22</publishTime>
+    </File>
+    <File Include="Content/Login.css">
+      <publishTime>06/10/2020 09:14:53</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>06/10/2020 17:39:41</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/09/2020 10:15:16</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/06/2020 10:56:19</publishTime>
+    </File>
+    <File Include="Light.master">
+      <publishTime>03/06/2020 10:56:20</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>05/11/2020 15:44:41</publishTime>
+    </File>
+    <File Include="Main.master">
+      <publishTime>09/22/2021 09:43:51</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/06/2020 10:57:18</publishTime>
+    </File>
+    <File Include="Reporting/InternalMemo/FreeText/FreeTextMemoDetailListing.aspx">
+      <publishTime>10/26/2021 13:15:45</publishTime>
+    </File>
+    <File Include="Reporting/InternalMemo/PendingGiro/PendingGiroDetailListing.aspx">
+      <publishTime>08/25/2020 16:04:11</publishTime>
+    </File>
+    <File Include="Root.master">
+      <publishTime>10/26/2021 10:41:38</publishTime>
+    </File>
+    <File Include="Scripts/Application.js">
+      <publishTime>08/21/2019 14:16:23</publishTime>
+    </File>
+    <File Include="Shared/DocViewer.aspx">
+      <publishTime>10/07/2021 12:50:12</publishTime>
+    </File>
+    <File Include="Shared/FreeTextPDF.ashx">
+      <publishTime>01/10/2021 16:11:13</publishTime>
+    </File>
+    <File Include="Transaction/HumanResources/EmployeeMaintenance/EmployeeMaint.aspx">
+      <publishTime>05/10/2020 14:41:27</publishTime>
+    </File>
+    <File Include="Transaction/InternalMemo/approve.png">
+      <publishTime>09/28/2021 11:59:31</publishTime>
+    </File>
+    <File Include="Transaction/InternalMemo/FreeTemplate/FreeTemplateEntry.aspx">
+      <publishTime>06/11/2020 14:09:08</publishTime>
+    </File>
+    <File Include="Transaction/InternalMemo/FreeTemplate/FreeTemplateMaint.aspx">
+      <publishTime>06/11/2020 14:33:26</publishTime>
+    </File>
+    <File Include="Transaction/InternalMemo/FreeTextDownload.ashx">
+      <publishTime>01/10/2021 15:41:37</publishTime>
+    </File>
+    <File Include="Transaction/InternalMemo/FreeTextMemo/FreeTextMemoEntry.aspx">
+      <publishTime>09/20/2021 15:10:53</publishTime>
+    </File>
+    <File Include="Transaction/InternalMemo/FreeTextMemo/FreeTextMemoMaint.aspx">
+      <publishTime>09/20/2021 10:08:26</publishTime>
+    </File>
+    <File Include="Transaction/InternalMemo/InternalMemoEntry.aspx">
+      <publishTime>10/28/2021 16:41:43</publishTime>
+    </File>
+    <File Include="Transaction/InternalMemo/InternalMemoMaint.aspx">
+      <publishTime>09/21/2021 10:06:35</publishTime>
+    </File>
+    <File Include="Transaction/PeminjamanDokumen/PeminjamanDokumenEntry.aspx">
+      <publishTime>09/07/2021 13:33:55</publishTime>
+    </File>
+    <File Include="Transaction/PeminjamanDokumen/PeminjamanDokumenList.aspx">
+      <publishTime>09/13/2021 15:08:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/12/2021 17:20:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

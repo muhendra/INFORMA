@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="DXMNCGUI_INFORMA.Global_asax" Language="C#" %>

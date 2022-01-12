@@ -1,0 +1,10 @@
+********** 6/9/2020 9:19:45 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: HttpCall in AccesRright.cs
+Stack Trace: 
+   at DXMNCGUI_INFORMA.Controllers.Localization.Localizer.GetString(Enum id, Object[] args) in D:\MyProject2019\Web\DXMNCGUI_INFORMA\DXMNCGUI_INFORMA\Controllers\Localization\Localizer.cs:line 38
+   at DXMNCGUI_INFORMA.Controllers.Data.DataError.HandleBasicSqlException(SqlException ex) in D:\MyProject2019\Web\DXMNCGUI_INFORMA\DXMNCGUI_INFORMA\Controllers\Data\DataError.cs:line 129
+   at DXMNCGUI_INFORMA.Controllers.Data.DataError.HandleSqlException(SqlException ex) in D:\MyProject2019\Web\DXMNCGUI_INFORMA\DXMNCGUI_INFORMA\Controllers\Data\DataError.cs:line 134
+   at DXMNCGUI_INFORMA.Controllers.Application.AccessRightSQL.IsAccessibleByUserID(String userID, String cmdID) in D:\MyProject2019\Web\DXMNCGUI_INFORMA\DXMNCGUI_INFORMA\Controllers\Application\AccessRight.cs:line 380
+
